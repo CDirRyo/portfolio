@@ -7,10 +7,10 @@ const Contact = () => {
     <Container id="contact" className="container" inView={inView}>
         <h2>Contact</h2>
         <div ref={ref}>
-            <p><a><img src="/images/mdi_github.svg" alt="github"/>&nbsp;CDirRyo</a></p>
-            <p><a><img src="/images/mdi_linkedin.svg" alt="linkedin"/>&nbsp;Carlo Ryoshin</a></p>
-            <p><a><img src="/images/jam_fiverr-square.svg" alt="fiverr"/>&nbsp;ryoshin</a></p>
-            <p><a><img src="/images/material-symbols_alternate-email-rounded.svg" alt="email"/>&nbsp;cryofreelance@gmail.com</a></p>
+            <p><a href="https://github.com/CDirRyo" target="_blank"><img src="/images/mdi_github.svg" alt="github"/>&nbsp;CDirRyo</a></p>
+            <p><a href="https://www.linkedin.com/in/carlo-ryoshin-81985216a/" target="_blank"><img src="/images/mdi_linkedin.svg" alt="linkedin"/>&nbsp;Carlo Ryoshin</a></p>
+            <p><a href="https://www.fiverr.com/ryoshin" target="_blank"><img src="/images/jam_fiverr-square.svg" alt="fiverr"/>&nbsp;ryoshin</a></p>
+            <p><a target="_blank" href="mailto: cryofreelance@gmail.com"><img src="/images/material-symbols_alternate-email-rounded.svg" alt="email"/>&nbsp;cryofreelance@gmail.com</a></p>
         </div>
     </Container>
     )
@@ -37,6 +37,7 @@ const Container = styled.div`
     a {
         display: flex;
         align-items: center;
+        color: #343434;
     }
 
     @media (max-width: 600px) {

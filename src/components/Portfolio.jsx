@@ -7,24 +7,20 @@ const Portfolio = () => {
     const { ref, inView } = useInView({triggerOnce: true});
     const [currentPiece, setCurrentPiece] = useState(0);
     const pieces = [{
-        author: "appfigure",
-        github: "https://github.com",
-        link: "https://reallygoodemails.com/"
+        author: "ikhokha",
+        github: "https://cdirryo.github.io/iKhokha-clone-email/",
     },
     {
-        author: "appfigure",
-        github: "https://github.com",
-        link: "https://reallygoodemails.com/"
+        author: "appfigures",
+        github: "https://cdirryo.github.io/appfigures-clone-email/",
     },
     {
-        author: "appfigure",
+        author: "appfigures",
         github: "https://github.com",
-        link: "https://reallygoodemails.com/"
     },
     {
-        author: "appfigure",
+        author: "appfigures",
         github: "https://github.com",
-        link: "https://reallygoodemails.com/"
     }];
     return (
         <Container id="portfolio" className="container" ref={ref} inView={inView}>
