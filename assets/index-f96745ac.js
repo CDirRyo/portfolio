@@ -133,7 +133,7 @@ Error generating stack: `+i.message+`
         }
     }
 
-`,Uh=()=>{const{ref:e,inView:t}=gu({triggerOnce:!0}),[n,r]=K.exports.useState(0);return te(Hh,{id:"portfolio",className:"container",ref:e,inView:t,children:[te(Bh,{children:[T("h1",{children:"Hi, I’m Carlo. I’m a Front End and Email Developer."}),te("p",{children:["Need my help? Let’s chat",T("a",{href:"#contact"})]})]}),te(Vh,{currentPiece:n,children:[T("button",{onClick:()=>n>0&&r(i=>i-1),children:T("img",{src:"images/material-symbols_arrow-back-ios-rounded.svg",alt:"previous piece"})}),T("div",{children:T("div",{children:[{author:"ikhokha",github:"https://cdirryo.github.io/iKhokha-clone-email/"},{author:"appfigures",github:"https://cdirryo.github.io/appfigures-clone-email/"},{author:"lecol",github:"https://cdirryo.github.io/lecol-clone-email/"},{author:"appfigures",github:"https://github.com"}].map((i,o)=>T($h,{github:i.github,author:i.author,link:i.link},o))})}),T("button",{onClick:()=>n<3&&r(i=>i+1),children:T("img",{src:"images/material-symbols_arrow-forward-ios-rounded.svg",alt:"next piece"})})]})]})},Vh=Be.div`
+`,Uh=()=>{const{ref:e,inView:t}=gu({triggerOnce:!0}),[n,r]=K.exports.useState(0);return te(Hh,{id:"portfolio",className:"container",ref:e,inView:t,children:[te(Bh,{children:[T("h1",{children:"Hi, I’m Carlo. I’m a Shopify and Email Developer."}),te("p",{children:["Need my help? Let’s chat",T("a",{href:"#contact"})]})]}),te(Vh,{currentPiece:n,children:[T("button",{onClick:()=>n>0&&r(i=>i-1),children:T("img",{src:"images/material-symbols_arrow-back-ios-rounded.svg",alt:"previous piece"})}),T("div",{children:T("div",{children:[{author:"ikhokha",github:"https://cdirryo.github.io/iKhokha-clone-email/"},{author:"appfigures",github:"https://cdirryo.github.io/appfigures-clone-email/"},{author:"lecol",github:"https://cdirryo.github.io/lecol-clone-email/"},{author:"everlane",github:"https://cdirryo.github.io/everlane-clone-email/"}].map((i,o)=>T($h,{github:i.github,author:i.author,link:i.link},o))})}),T("button",{onClick:()=>n<3&&r(i=>i+1),children:T("img",{src:"images/material-symbols_arrow-forward-ios-rounded.svg",alt:"next piece"})})]})]})},Vh=Be.div`
     display: flex;
     align-items: center;
     gap: 24px;
@@ -199,7 +199,7 @@ Error generating stack: `+i.message+`
             height: 8px;
         }
     }
-`,Kh=()=>{const{ref:e,inView:t}=gu({triggerOnce:!0,threshold:.25});return te(Yh,{id:"skills",className:"container",children:[T("h2",{children:"Skills"}),T("div",{ref:e,children:[{name:"HTML",percentage:"95%"},{name:"CSS",percentage:"90%"},{name:"JavaScript",percentage:"90%"},{name:"React",percentage:"85%"},{name:"MJML",percentage:"90%"},{name:"Sass",percentage:"80%"},{name:"TailwindCSS",percentage:"75%"},{name:"Git/GitHub",percentage:"80%"},{name:"Figma",percentage:"80%"},{name:"Photoshop",percentage:"75%"}].map((r,l)=>T(Wh,{name:r.name,percentage:t?r.percentage:"0%"},l))})]})},Yh=Be.div`
+`,Kh=()=>{const{ref:e,inView:t}=gu({triggerOnce:!0,threshold:.25});return te(Yh,{id:"skills",className:"container",children:[T("h2",{children:"Skills"}),T("div",{ref:e,children:[{name:"HTML",percentage:"95%"},{name:"CSS",percentage:"90%"},{name:"JavaScript",percentage:"90%"},{name:"Shopify",percentage:"95%"},{name:"Liquid",percentage:"90%"},{name:"React",percentage:"85%"},{name:"MJML",percentage:"90%"},{name:"Sass",percentage:"80%"},{name:"Git/GitHub",percentage:"80%"},{name:"Figma",percentage:"80%"}].map((r,l)=>T(Wh,{name:r.name,percentage:t?r.percentage:"0%"},l))})]})},Yh=Be.div`
     display: flex;
     flex-direction: column;
     gap: 64px;
